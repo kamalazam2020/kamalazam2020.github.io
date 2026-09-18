@@ -1,0 +1,12 @@
+{
+  "entities": {
+    "siteContent": {
+      "description": "CMS published website content for Kamal Azam Media Production",
+      "fields": {
+        "id": { "type": "string", "description": "Section document identifier (hero, services, portfolio, packages, equipment, process, faqs, etc.)" },
+        "updatedAt": { "type": "string", "description": "ISO timestamp of last update" },
+        "updatedBy": { "type": "string", "description": "Admin UID who published the content" }
+      }
+    }
+  }
+}
